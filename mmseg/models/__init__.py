@@ -9,6 +9,7 @@ from .losses import *  # noqa: F401,F403
 from .necks import *  # noqa: F401,F403
 from .segmentors import *  # noqa: F401,F403
 from .text_encoder import *  # noqa: F401,F403
+from .upernet_attention import *
 
 __all__ = [
     'BACKBONES', 'HEADS', 'LOSSES', 'SEGMENTORS', 'build_backbone',
