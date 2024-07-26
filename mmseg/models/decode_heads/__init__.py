@@ -35,7 +35,8 @@ from .setr_up_head import SETRUPHead
 from .stdc_head import STDCHead
 from .uper_head import UPerHead
 from .vpd_depth_head import VPDDepthHead
-from .upernet_attention import UPerHeadWithAttention
+from .upernet_attention_head import UPerHeadWithAttention
+
 __all__ = [
     'FCNHead', 'PSPHead', 'ASPPHead', 'PSAHead', 'NLHead', 'GCHead', 'CCHead',
     'UPerHead', 'DepthwiseSeparableASPPHead', 'ANNHead', 'DAHead', 'OCRHead',
